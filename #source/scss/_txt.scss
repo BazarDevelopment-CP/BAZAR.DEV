@@ -1,0 +1,139 @@
+.hero-title {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  @media screen and (max-width: 1024px) {
+    font-size: 64px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+}
+.section-title {
+  color: var(--white);
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  @media screen and (max-width: 1024px) {
+    font-size: 32px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+.title_48 {
+  color: #1f1f20;
+  font-family: "Open Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  @media screen and (max-width: 1024px) {
+    font-size: 32px;
+  }
+}
+.title_32 {
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media screen and (max-width: 1024px) {
+    font-size: 24px;
+  }
+}
+.title_28 {
+  font-family: "DM Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+.title_24 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+.title_20 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+  }
+}
+.title_16 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text_24 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+.text_20 {
+  color: #d8d8d8;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+.text_18 {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_16 {
+  color: #b7b7b7;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_14 {
+  color: #b7b7b7;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
