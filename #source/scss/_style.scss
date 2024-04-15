@@ -585,6 +585,9 @@ main {
 }
 .callToAction {
   background-color: var(--accent-color);
+  @media screen and (max-width: 768px) {
+    padding: 24px 0;
+  }
   .container {
   }
   .title_48 {

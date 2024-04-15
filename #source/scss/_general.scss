@@ -11,6 +11,14 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   background: #191919;
+  overflow-x: hidden;
+  &.project {
+    background-color: #363638;
+    .shadow {
+      position: absolute;
+      width: 100%;
+    }
+  }
 }
 ul,
 ol {

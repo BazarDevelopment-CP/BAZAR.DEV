@@ -137,3 +137,68 @@
   font-weight: 400;
   line-height: normal;
 }
+
+//------------------_OPEN_PROJECT_----------------------//
+
+.backTxtHero {
+  color: rgba(216, 245, 32, 0.11);
+  font-family: "Stalinist One";
+  font-size: 350px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  @media screen and (max-width: 1024px) {
+    font-size: 150px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 64px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+  }
+}
+.backTxt {
+  color: rgba(216, 245, 32, 0.11);
+  font-family: "Stalinist One";
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 67%; /* 134px */
+  @media screen and (max-width: 1024px) {
+    font-size: 96px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 64px;
+  }
+}
+.project_section-title {
+  color: #d8f520;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+  @media screen and (max-width: 1024px) {
+    font-size: 32px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+.project_text_20 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: 0.6px;
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+  }
+}

@@ -8977,6 +8977,60 @@ $(".runSlider").slick({
   dots: false,
   pauseOnHover: false,
 });
+$(".letters-list ").slick({
+  speed: 3000,
+  autoplay: true,
+  autoplaySpeed: 0,
+  cssEase: "linear",
+  slidesToShow: 15,
+  arrows: false,
+  dots: false,
+  pauseOnHover: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 10,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 8,
+      },
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 6,
+      },
+    },
+  ],
+});
+$(".mobile-list").slick({
+  speed: 5000,
+  autoplay: true,
+  autoplaySpeed: 0,
+  cssEase: "linear",
+  slidesToShow: 5,
+  arrows: false,
+  dots: false,
+  pauseOnHover: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+  ],
+});
 $(".technologies-slider").slick({
   slidesToShow: 5,
   slidesToScroll: 1,
@@ -9024,7 +9078,22 @@ $(window).on("load resize", function () {
     $(".ourTeam-list").slick("unslick");
   }
 });
-
+$(window).on("load resize", function () {
+  if ($(window).width() < 768) {
+    $(".tags-list").slick({
+      speed: 4000,
+      autoplay: true,
+      autoplaySpeed: 0,
+      cssEase: "linear",
+      variableWidth: true,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+    });
+  } else {
+    $(".tags-list").slick("unslick");
+  }
+});
 let images = document.querySelectorAll(".arrows img");
 let currentIndex = 0;
 function addClassToImage() {
@@ -9034,11 +9103,9 @@ function addClassToImage() {
   images[currentIndex].classList.add("active");
   currentIndex = (currentIndex + 1) % images.length;
 }
-
 if (window.innerWidth >= 1024) {
   setInterval(addClassToImage, 200);
 }
-
 var x, i, j, l, ll, selElmnt, a, b, c;
 x = document.getElementsByClassName("custom-select");
 l = x.length;
